@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import {motion} from 'framer-motion'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 
-import {AppWrap} from '../../wrapper'
+import {AppWrap, MotionWrap} from '../../wrapper'
 import {urlFor, client} from '../../client'
 import './Skils.scss'
 
@@ -17,6 +17,7 @@ const Skills = () => {
     const experienceQuery = '*[_type == "experiences"]'
     const skillQuery = '*[_type == "skills"]'
     client.fetch(experienceQuery).then((data) => {
+      console.log(data)
       setExperience(data)
     })
     client.fetch(skillQuery).then((data) => {
@@ -31,7 +32,7 @@ const Skills = () => {
     </h2>
     <div className='app__skills-container'>
       <motion.div className='app__skills-list'>
-        {skills.map((skill)=>(
+        {skills?.map((skill)=>(
             <motion.div 
             whileInView={{opacity: [0, 1]}} 
             transition={{duration: 0.5}}
@@ -45,13 +46,24 @@ const Skills = () => {
         ))}
       </motion.div>
       <motion.div className='app__skills-exp'>
-            {experience.map((work)=>(
+        {experience?.map((experience)=>(
+          <motion.div
+          className="app__skills-exp-item"
+          key={experience.year}
+          >
+            <div className='app__skills-exp-year'>
+              <p className='bold-text'>{experience.year}</p>
+            </div>
+            <motion.div className="app__skills-exp-works">
+            {experience.works.map((work)=>(
               <>
               <motion.div
               whileInView={{opacity: [0, 1]}} 
               transition={{duration: 0.5}}
               className='app__skills-exp-work app__flex'
-              key={skills.name}
+              data-tip
+              data-for = {work.name}
+              key={work.name}
               >
                 <h4 className='bold-text'>
                 {work.name}
@@ -68,10 +80,18 @@ const Skills = () => {
               </ReactTooltip>
               </>
             ))}
+            </motion.div>
+          </motion.div>
+        ))}
+            
       </motion.div>
     </div>
     </>
   )
 }
 
-export default Skills
+export default AppWrap(
+  MotionWrap(Skills, 'app__skills'),
+  'skills', 
+  'app__whitebg'
+)
