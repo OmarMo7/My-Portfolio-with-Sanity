@@ -18,7 +18,7 @@ const Skills = () => {
     const skillQuery = '*[_type == "skills"]'
     client.fetch(experienceQuery).then((data) => {
       console.log(data)
-      setExperience(data)
+      setExperience(data) 
     })
     client.fetch(skillQuery).then((data) => {
       setSkills(data)
