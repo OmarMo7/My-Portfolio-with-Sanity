@@ -1,10 +1,8 @@
 .app__navbar {
   width: 100%;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 1rem 2rem;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(4px);
@@ -19,13 +17,33 @@
   justify-content: flex-start;
   align-items: center;
 
-  img {
-    width: 120px;
-    height: 40px;
+  .animated-logo {
+    font-family: 'Pacifico', cursive; // Use a connected font like Pacifico
+    font-size: 2rem;
+    color: purple;
+    overflow: hidden; /* Ensures the text is hidden until animation is complete */
+    border-right: 0.15em solid purple; /* Creates a typing cursor effect */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: 0.1em; /* Adds space between characters for better readability */
+    animation: typing 1s steps(30, end), blink-caret 0.5s step-end infinite; /* Adds typing and blinking cursor animations */
 
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes blink-caret {
+      from, to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: purple;
+      }
     }
   }
 }
@@ -35,7 +53,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   list-style: none;
 
   li {
@@ -46,7 +63,6 @@
     div {
       width: 5px;
       height: 5px;
-
       background: transparent;
       border-radius: 50%;
       margin-bottom: 5px;
@@ -81,7 +97,6 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-
   position: relative;
   display: flex;
   justify-content: center;
@@ -100,22 +115,17 @@
     bottom: 0;
     right: 0;
     z-index: 5;
-
     padding: 1rem;
-
     width: 80%;
     height: 100vh;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
     background: url("../../assets/bgWhite.png");
     background-color: var(--white-color);
     background-size: cover;
     background-repeat: repeat;
-
     box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
 
     svg {
@@ -131,7 +141,6 @@
       padding: 0;
       height: 100%;
       width: 100%;
-
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
@@ -146,7 +155,6 @@
           font-size: 1rem;
           text-transform: uppercase;
           font-weight: 500;
-
           transition: all 0.3s ease-in-out;
 
           &:hover {

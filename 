@@ -1,0 +1,176 @@
+[33mcommit 4c344d15737ac4dcc3584493db99e58085d3fd44[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Fri Jul 26 20:26:24 2024 +0300
+
+    Modifying small things
+
+[33mcommit 7b05d7cdc64fc177ac704ba3b073fac5e58739b2[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Fri Jul 26 20:20:21 2024 +0300
+
+    Customizing the project to suit my own figure
+
+[33mcommit 0ab0dd6d064052746035196b7d318416688fac33[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Fri Jul 26 20:19:09 2024 +0300
+
+    Adding assets
+
+[33mcommit 87e28c76673bd40a2660e59dd0011e3eee140efb[m
+Merge: f0b1b37 3c8ecf2
+Author: Omar Mostafa <43853632+OmarMo7@users.noreply.github.com>
+Date:   Wed Jul 24 16:17:02 2024 +0200
+
+    Merge pull request #3 from OmarMo7/main
+    
+    Main
+
+[33mcommit 3c8ecf29b8940c85ff0b957af23ac1aaeaa72059[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 24 16:15:26 2024 +0200
+
+    Setting up the footer
+
+[33mcommit 095b779c4fe678dec530a05c3bea9e7fc8062cba[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 24 16:15:04 2024 +0200
+
+    Fixing a little typo
+
+[33mcommit bc4f2f03c0a06c5b1f12ab6975180560e1899707[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Thu Jul 18 16:14:25 2024 +0200
+
+    Building the css
+
+[33mcommit 763c2b7e74d6a596bb1b812b17f1c07e12d58fc0[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Thu Jul 18 16:14:04 2024 +0200
+
+    Minor changes added
+
+[33mcommit d8eb3d9d99e40d744e91a1aee7e8d908e890962c[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Thu Jul 18 16:13:14 2024 +0200
+
+    Change the name of image field
+
+[33mcommit f0b1b3719b5da73625c3f24c2e42c7fdf518f41a[m
+Merge: 9a65ca8 abfd901
+Author: Omar Mostafa <43853632+OmarMo7@users.noreply.github.com>
+Date:   Wed Jul 10 15:38:14 2024 +0200
+
+    Merge pull request #2 from OmarMo7/main
+    
+    Main
+
+[33mcommit abfd901aee469d97d74eb134a4c6a2a98c041a96[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 10 15:34:12 2024 +0200
+
+    Adding an asset
+
+[33mcommit 68332a8f59338b495aa9c6def0e56ac71541672a[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 10 15:33:59 2024 +0200
+
+    Adding the MotionWrap component
+
+[33mcommit 435d68b0dd71c0fb081d9e6b8e0db10808881225[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 10 15:32:14 2024 +0200
+
+    Building the skills component
+
+[33mcommit db7ccb58db93c4a76cd5ef6940e9f7a3e5801f88[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 10 15:31:47 2024 +0200
+
+    Applying the higher-order component of motion div
+
+[33mcommit 996d4a5e6e2e7a48200a6891cd49c0e4fa6738fe[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 10 15:30:59 2024 +0200
+
+    Moving the 'skills' section up to the 4th dot
+
+[33mcommit 72bb43b299e425a68b2e466ecc236d588c897bb2[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Wed Jul 10 15:29:40 2024 +0200
+
+    Installing react-tooltip
+
+[33mcommit 4c3929a73a6af872dde2e92686386aa5c08c89c7[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Tue Jun 11 16:07:55 2024 +0200
+
+    Building "Skills" component
+
+[33mcommit c3b4aa8c01fdc145c705147e76baeb8a8265810a[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Mon Jun 10 15:50:43 2024 +0200
+
+    Adding "python" tag
+
+[33mcommit 9a65ca83dd1ed4295a11bad96657268653d3852d[m
+Merge: 375c3fd 6df4ff4
+Author: Omar Mostafa <43853632+OmarMo7@users.noreply.github.com>
+Date:   Mon Jun 10 15:39:07 2024 +0300
+
+    Merge pull request #1 from OmarMo7/main
+    
+    Main
+
+[33mcommit 6df4ff4bd6cb95d4039655136f6d87d845eb4e49[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Mon Jun 10 14:35:07 2024 +0200
+
+    Updating gitignore
+
+[33mcommit b18d6f98c41a64e0cdd39a0f82c7d06574bff3d1[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Mon Jun 10 14:35:01 2024 +0200
+
+    Deleting unnecessary files
+
+[33mcommit 1c7192c1d6566efd73b01b0d490a90cf1dddd59f[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Mon Jun 10 14:30:42 2024 +0200
+
+    Moving files - Changing the names of the main folders (Reactivating the app to work on the other device)
+
+[33mcommit 375c3fd8bdfbc49c2003963e74e32c58179632c4[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Sun Jun 2 23:22:38 2024 +0300
+
+    package.json installed
+
+[33mcommit d52d5d73997e2c17ee2f85c8080d7ed8d504b835[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Sun Jun 2 01:43:04 2024 +0300
+
+    Ignoring node_modules
+
+[33mcommit 4957686579f62f491d70f406ebf2ba3e81488b48[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Sun Jun 2 01:31:32 2024 +0300
+
+    Splitting the project into two divisions: frontend and backend
+
+[33mcommit e7a487ad4e8cbd6e2d269b43c1f9f22fe0512ce8[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Sat Jun 1 23:42:42 2024 +0300
+
+    Merge frontend_react
+
+[33mcommit 868f46dd7cf0fdee189695c1cd3cfe4cc1203379[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Sat Jun 1 23:14:19 2024 +0300
+
+    Building the architecure of our database in Sanity
+
+[33mcommit af185c3b3820a26a0fa30113c76139bf26430e96[m
+Author: OmarMo7 <omar7.first@gmail.com>
+Date:   Fri Dec 15 21:14:52 2023 +0200
+
+    feat: bootstrap sanity studio

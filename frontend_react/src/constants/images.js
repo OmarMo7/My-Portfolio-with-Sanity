@@ -38,7 +38,12 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+import springer from '../assets/springer.png';
+import seveir from '../assets/seveir.png';
+
 export default {
+  springer,
+  seveir,
   omar,
   email,
   mobile,

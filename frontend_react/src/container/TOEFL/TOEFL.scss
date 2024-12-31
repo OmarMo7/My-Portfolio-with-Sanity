@@ -1,0 +1,92 @@
+.app__toefl {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+
+  .head-text {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+.app__profiles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.app__profile-item-toefl {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  .bold-text {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .toefl-details {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+
+    .gauges-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px; /* Make this larger for the total score gauge */
+      margin: 0 auto 20px auto; /* Center align the total score gauge */
+    }
+
+    .gauges-row {
+      display: flex;
+      justify-content: center; /* Center align the row */
+      flex-wrap: wrap;
+    }
+
+    .gauge {
+      width: 100px;
+      margin: 10px;
+    }
+
+    .gauge-label {
+      font-size: 18px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .p-text {
+      font-size: 18px;
+      color: #555;
+      margin: 10px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .app__profile-item-toefl {
+    width: 370px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 320px;
+    }
+  }
+}
